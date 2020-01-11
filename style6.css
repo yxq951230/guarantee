@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    margin-top: 30px;
+    color: #666;
+}
+.dd{
+    width: 520px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.sevice-type-yb .yb-item-cat{
+    float: left;
+    position: relative;
+}
+.sevice-type-yb .yb-item-cat .yb-item{
+    padding:4px 5px 4px 6px;
+    margin:  0 7px 2px 0;
+    border: 1px solid #ccc;
+    line-height: 20px;
+    position: relative;
+    font-size: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+.yb-item .icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+.yb-item .name{
+    font-size: 12px;
+    margin-right: 4px;
+    vertical-align: middle;
+    max-width: 60px;
+    height: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.yb-item .price{
+    margin-right: 5px;
+    vertical-align: middle;
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+}
+.sevice-type-yb .yb-item-cat:hover .arrow-icon{
+    background-position: -2px -38px;
+}
+.yb-item .arrow-icon{
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    vertical-align: middle;
+    background: url("img/service-icon.png") -2px -1px;
+}
+.sprite-question{
+    display: inline-block;
+    vertical-align: -10px;
+    width: 16px;
+    height: 16px;
+    background-image: url("img/__sprite.png");
+    background-position: 0 0;
+}
+.service-tips{
+    position: relative;
+    height: 30px;
+}
+.service-tips .tips{
+    z-index: 2;
+    width: 270px;
+    position: absolute;
+/*    left: 581px;
+    top: 66px;*/
+    right: 178px;
+    top:36px;
+    display: none;
+}
+.service-tips .tips .sprote-arrow{
+    width: 11px;
+    height: 6px;
+    background-image: url("img/__sprite.png");
+    background-position: -14px -16px;
+    position: absolute;
+    overflow: hidden;
+    left: 218px;
+    top: -5px;
+}
+.service-tips .tips .content{
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #cecbce;
+    color: #666;
+    box-shadow: 0 0 2px 2px #eee;
+}
+.service-tips .tips .content dd{
+    line-height: 170%;
+}
+.service-tips .tips .content p{
+    border-top: 1px dotted #999;
+    margin-top: 7px;
+    padding-top: 7px;
+}
+.service-tips .tips .content p a{
+    color: #5e69ad;
+    margin: 0 5px;
+}
+.service-tips:hover .tips{
+    display: block;
+}
+.sevice-type-yb .yb-item-cat .more-item{
+    display: none;
+    position: absolute;
+    top: 29px;
+    background-color: #FFF;
+    border:1px solid #DDD;
+    padding: 10px 0 5px 10px;
+    width: 240px;
+    overflow: hidden;
+    z-index: 1;
+}
+ul li{
+    margin-bottom: 10px;
+}
+ul li .title{
+    height: 16px;
+}
+.sprite-checkbox{
+    width: 14px;
+    height: 14px;
+    background-image: url("img/__sprite.png");
+    background-position: 0 -16px;
+}
+.sprite-checkbox{
+    display: inline-block;
+    vertical-align: -3px;
+    margin-right: 6px;
+    width: 14px;
+    height: 14px;
+    background-image: url("img/__sprite.png");
+    background-position: -16px 0;
+}
+ul li .title .price{
+    margin-right: 0;
+    margin-left: 3px;
+}
+ul li .name{
+    margin-left: -4px;
+}
+.detail-more {
+    display: none;
+    margin-left: 8px;
+    color: #5e69ad;
+}
+.s-arrow{
+    font-family: SimSun;
+    text-decoration: none;
+}
+/*.yb-item-cat:hover .more-item{
+    display: block;
+}*/
+.title:hover .detail-more{
+    display: inline-block;
+}
+.sevice-type-yb .yb-item-cat:hover .yb-item{
+    border: 1px solid #e3393c;
+    border-bottom-color: #fff !important;
+}
+.title span:hover{
+    color:#e3393c;
+}
+a:hover{
+    color: #E2231A;
+}
+.service-tips .tips .content p a:hover {
+    color: #e4393c;
+}
+.yb-item {
+    border: 1px solid #E3393C;
+}
+.more-item .anniu{
+    width: 15px;
+    height: 15px;
+    vertical-align: -4px;
+    margin-right: 5px;
+}
+.red-border {
+    border: 1px solid #E3393C !important;
+}
